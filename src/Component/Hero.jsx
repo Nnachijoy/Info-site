@@ -9,124 +9,204 @@ import Five from '../assets/Five.pdf';
 import Six from '../assets/Six.pdf';
 import Eight from '../assets/Eight.pdf';
 import Ten from '../assets/Ten.pdf';
-import yumexone from '../assets/yumexone.png';
-import yumextwo from '../assets/yumextwo.png';
-import yumexthree from '../assets/yumexthree.png';
-import yumexfour from '../assets/yumexfour.png';
-import yumexfive from '../assets/yumexfive.png';
-import yumexsix from '../assets/yumexsix.png';
-import yumexeight from '../assets/yumexeight.png';
-import yumexeightt from '../assets/yumexeightt.png';
+import solarenergy from '../assets/solarenergy.png';
+import suntracker from '../assets/suntracker.png';
+import solarcarports from '../assets/solarcarports.png';
+import rooftiles from '../assets/rooftiles.png';
+import solarirrigation from '../assets/solarirrigation.png';
+import smartmeter from '../assets/smartmeter.png';
+import backupstorage from '../assets/backupstorage.png';
+import evconversion from '../assets/evconversion.png';
+import cocacola from '../assets/cocacola.jpg';
+import crossriver from '../assets/crossriver.jpg';
+import daewoo from '../assets/daewoo.jpg';
+import dora from '../assets/dora.jpg';
+import ebsu from '../assets/ebsu.jpg';
+import heineken from '../assets/heineken.jpg';
+import hybrid from '../assets/hybrid.jpg';
+import lng from '../assets/lng.jpg';
+import mrbiggs from '../assets/mrbiggs.jpg';
+import nenogfarms from '../assets/nenogfarms.jpg';
 
 
 function HeroSection() {
 
   return (
-<div style={{marginTop:'70px'}}>
-    
-        <Row className=''>
-<Col className='mb-5' md={6} xs={6}>
-    <div>
-        <a href={First} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
-    <img src={yumexone} alt="yumex-pdf" className='mt-1 img-fluid w-100' />
-</a>
-    </div>
-</Col>
+<div style={{marginTop:'40px'}} className='rows'>
+<Container>
+<Row>
+
+<Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={rooftiles} alt="yumexzrooftiles" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={solarirrigation} alt="yumexzsolarirrigation" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+</Row>
+
+
+<Row className='mt-3'>
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={suntracker} alt="yumexzsuntracker" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={solarcarports} alt="yumexzsolarcarports" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+  
+</Row>
 
 
 
-            <Col className='mb-5'  md={6} xs={6}>
+<Row className='mt-3'>
+<Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={evconversion} alt="yumexzevconversion" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={smartmeter} alt="yumexzsmartmeter" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+</Row>
+
+<Row className='mt-3'>
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={backupstorage} alt="yumexzbackup" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+    <Col md={6} xs={6}>
+        <div>
+            <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+                <div className='d-flex'>
+                    <img src={solarenergy} alt="yumexzsolarenergy" className='mt-1 w-100'/>
+                </div>
+            </a>
+        </div>
+    </Col>
+
+</Row>
+
+</Container> 
+
+
+
             <div>
-<a href={Second} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
-<div className='d-flex'>
-<img src={yumextwo} alt="yumexpdf" className='mt-1 img-fluid w-100'  />
-    </div>
-    </a>
+                <div className='fw-bolder  text-center ' style={{fontSize:'50px',  fontFamily: 'Lucida Handwriting'
+            , marginTop:'80px'}}>
+                    Supported by
+                </div>
+
+                <Row className='mt-5'>
+
+                    <Col>
+                    <img src={crossriver} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
 
 
-</div>
-            </Col>
+                    <Col className='d-flex align-items-center'>
+                    <img src={cocacola} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
+                
 
-            </Row>
+                    
 
+                    
+                    <Col>
+                    <img src={ebsu} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
 
-            <Row className=''>
-<Col className='mb-5' md={6} xs={6}>
-    <div>
+                    <Col className='d-flex align-items-center'>
+                    <img src={dora} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
+                </Row>
 
-        <a href={Third} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
-    <img src={yumexthree} alt="yumex-pdf" className='mt-1 img-fluid w-100' />
-</a>
-    </div>
-</Col>
+                <Row className='mt-5'>
+                    
+               
+                <Col>
+                    <img src={hybrid} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
 
+                    <Col>
+                    <img src={daewoo} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
+                   
 
+                   
+                    <Col>
+                    <img src={lng} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
+                    
+                    <Col>
+                    <img src={heineken} alt="cocacola" className='mt-1 img-fluid w-100' />
+                    </Col>
+            
+                </Row>
 
-            <Col className='mb-5'  md={6} xs={6}>
-            <div>
-<a href={Fourth} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
-<div className='d-flex'>
-<img src={yumexfour} alt="yumexpdf" className='mt-1 img-fluid w-100'  />
-    </div>
-    </a>
+                {/* <Row className='mt-5 d-flex justify-content-center' >
+    <Col md={6} >
+        <img src={mrbiggs} alt="cocacola" className='mt-1 img-fluid w-75' />
+    </Col>
+    <Col md={6}>
+        <img src={nenogfarms} alt="cocacola" className='mt-1 img-fluid w-75' />
+    </Col>
+</Row> */}
 
+<Row className='mt-5 d-flex justify-content-center'>
+    <Col xs={6} md={3}>
+        <img src={mrbiggs} alt="cocacola" className='mt-1 img-fluid w-100' />
+    </Col>
+    <Col xs={6} md={3}>
+        <img src={nenogfarms} alt="cocacola" className='mt-1 mx-5 img-fluid w-100' />
+    </Col>
+</Row>
 
-</div>
-            </Col>
-
-            </Row>
-
-            <Row className=''>
-<Col className='mb-5' md={6} xs={6}>
-    <div>
-
-        <a href={Five} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
-    <img src={yumexfive} alt="yumex-pdf" className='mt-1 img-fluid w-100' />
-</a>
-    </div>
-</Col>
-
-
-
-            <Col className='mb-5'  md={6} xs={6}>
-            <div>
-<a href={Six} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
-<div className='d-flex'>
-<img src={yumexsix} alt="yumexpdf" className='mt-1 img-fluid w-100'  />
-    </div>
-    </a>
-
-
-</div>
-            </Col>
-
-            </Row>
-
-            <Row className=''>
-<Col className='mb-5 mt-3' md={6} xs={6}>
-    <div>
-
-        <a href={Eight} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
-    <img src={yumexeightt} alt="yumex-pdf" className='mt-1 img-fluid w-100' />
-</a>
-    </div>
-</Col>
-
-
-
-            <Col className='mb-5'  md={6} xs={6}>
-            <div>
-<a href={Ten} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
-<div className='d-flex'>
-<img src={yumexeight} alt="yumexpdf" className='mt-1 img-fluid w-100'  />
-    </div>
-    </a>
-
-
-</div>
-            </Col>
-
-            </Row>
+            </div>
 
     
 </div>
@@ -163,6 +243,9 @@ export default HeroSection;
 // import Eight from '../assets/Eight.pdf';
 // import Ten from '../assets/Ten.pdf';
 // import arrownext from '../assets/arrownext.png';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
+
 
 // function HeroSection() {
 
@@ -176,14 +259,12 @@ export default HeroSection;
 // <Col className='mb-5' md={4} xs={6}>
 //     <div>
 //         <div className='yumex'>
-//             <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
+//             <a href={First} download={true} style={{ color: 'black', textDecoration: 'none' }} 
+//             className='fw-bold text-center'>
 //                 YUMEXZ SOLAR SUN TRACKER <i className="fas fa-download"></i>
 //             </a>
 //         </div>
 
-//         <a href={First} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
-//     <img src={yumexone} alt="yumex-pdf" className='mt-1 img-fluid w-100' />
-// </a>
         
 //         <Container  className='mt-3'>
 //         <a href={First} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }} className='d-flex'>
@@ -228,13 +309,15 @@ export default HeroSection;
 
 //         </Container>
 
-//         <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//     <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
 //             <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//                 <a href={First} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
+//                 <a href={First} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
 //             </span>
-//             <a href={First} target="_blank" rel="noopener noreferrer">
-//                 <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//             </a>
+     
+// <a href={First} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
 //         </div>
 //     </div>
 // </Col>
@@ -243,18 +326,14 @@ export default HeroSection;
 
 //             <Col className='mb-5'  md={4} xs={6}>
 //             <div>
-//     <div className='yumex'>
+//      <div className='yumex'>
 //         <a href={Second} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold m-0 p-0'>
 //             YUMEXZ SOLAR CARPORTS<i className="fas fa-download"></i>
 //         </a>
-//     </div>
+//     </div> 
     
 
-// <a href={Second} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold '>
-// <div className='d-flex'>
-// <img src={yumextwo} alt="yumexpdf" className='mt-1 img-fluid w-100'  />
-//     </div>
-//     </a>
+
 
         
 //     <Container  className='mt-3'>
@@ -307,14 +386,16 @@ export default HeroSection;
 
 // </Container>
 
-// <div className='explore fw-bolder mt-2' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Second} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Second} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Second} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Second} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
@@ -324,12 +405,12 @@ export default HeroSection;
 //             <Col className='mb-5'  md={4} xs={4} >
 //             <div>
 
-
+// {/* 
 //             <a href={Third} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
 // <div className='d-flex'>
 // <img src={yumexthree} alt="bullet"className='mt-1' />
 //     </div>
-//     </a>
+//     </a> */}
 
 
 //     <div className='yumex'>
@@ -392,14 +473,17 @@ export default HeroSection;
 
 // </Container>
 
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Third} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Third} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Third} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Third} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
@@ -462,15 +546,16 @@ export default HeroSection;
 
 
 // </Container>
-
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Third} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Third} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Fourth} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Fourth} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
@@ -527,15 +612,18 @@ export default HeroSection;
 
 // </Container>
 
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Five} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Five} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Five} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Five} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
-// </div>
+
 
 
 
@@ -590,14 +678,16 @@ export default HeroSection;
 
 // </Container>
 
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Six} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Six} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Six} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Six} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
@@ -606,11 +696,11 @@ export default HeroSection;
 //         </Row>
 
 //         <Row className='row-space container'>
-//             <Col md={7} className='mb-5'>
+//             <Col md={4} className='mb-5'>
 //             <div>
 //     <div className='yumex'>
 //         <a href={Eight} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold m-0 p-0'>
-//             YUMEXZ SOLAR BACK UP STORAGE<i className="fas fa-download"></i>
+//         YUMEXZ SOLAR BACK UP<i className="fas fa-download"></i>
 //         </a>
 //     </div>
 //     <Container className='mt-3'>
@@ -619,8 +709,7 @@ export default HeroSection;
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
 // Introduction to Yumexz
-// Solar backup storage
-// system
+// backup storage
 //     </h6></span>
 //     </div>
 //     </a>
@@ -629,7 +718,7 @@ export default HeroSection;
 // <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// How does the Yumexz Solar backup storage system work?
+// How does the Yumexz backup work?
 //     </h6></span>
 //     </div>
 //     </a>
@@ -638,8 +727,8 @@ export default HeroSection;
 // <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// Key features of the Yumexz Solar
-// backup storage system
+// Features of the Yumexz
+// backup storage
 //     </h6></span>
 //     </div>
 //     </a>
@@ -648,7 +737,7 @@ export default HeroSection;
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// Benefits of using the Yumexz Solar backup storage system
+// Benefits of the Yumexz backup storage
 //     </h6></span>
 //     </div>
 //     </a>
@@ -657,7 +746,7 @@ export default HeroSection;
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// Real-life examples of the Yumexz Solar backup storage system
+// Real-life examples of the storage
 //     </h6></span>
 //     </div>
 //     </a>
@@ -669,7 +758,7 @@ export default HeroSection;
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// Comparison with traditional backup storage systems
+// Comparison with traditional storage 
 //     </h6></span>
 //     </div>
 //     </a>
@@ -679,23 +768,28 @@ export default HeroSection;
     
 // </Container>
 
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Eight} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Eight} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Eight} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Eight} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
 
 //             </Col>
 
+            
 
 
-//             <Col md={5} className='mb-5'>
+
+//             <Col md={4} className='mb-5'>
 //             <div>
 //     <div className='yumex'>
 //         <a href={Ten} download={true} style={{ color: 'black', textDecoration: 'none' }} className='fw-bold m-0 p-0'>
@@ -725,7 +819,7 @@ export default HeroSection;
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
 // <span> <h6 style={{ marginLeft: '10px' }} className=''>
-// Yumexz Power Borehole and Water Storage 
+// Yumexz Power Water Storage 
 //     </h6></span>
 //     </div>
 //     </a>
@@ -733,7 +827,7 @@ export default HeroSection;
 //     <a href={Ten} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
-// <span> <h6 style={{ marginLeft: '10px' }} className=''>Yumexz Power Home Solar Energy Solution
+// <span> <h6 style={{ marginLeft: '10px' }} className=''>Yumexz Power Home Solar Energy 
 //     </h6></span>
 //     </div>
 //     </a>
@@ -741,7 +835,7 @@ export default HeroSection;
 //     <a href={Ten} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
-// <span> <h6 style={{ marginLeft: '10px' }} className=''>Yumexz Power Solar Food Preservation System
+// <span> <h6 style={{ marginLeft: '10px' }} className=''>Yumexz Solar Food Preservation System
 //     </h6></span>
 //     </div>
 //     </a>
@@ -749,8 +843,8 @@ export default HeroSection;
 //     <a href={Ten} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>
 //     <div className='d-flex'>
 // <img src={bullet} alt="bullet" style={{ width: '20px', height: '20px' }} className='mt-1' />
-// <span> <h6 style={{ marginLeft: '10px' }} className=''>Benefits of
-// Yumexz Power Conversion Technology
+// <span> <h6 style={{ marginLeft: '10px' }} className=''>
+// Yumexz Conversion Technology Benefits
 //     </h6></span>
 //     </div>
 //     </a>
@@ -760,14 +854,16 @@ export default HeroSection;
     
 // </Container>
 
-// <div className='explore fw-bolder mt-1' style={{ margin: '0', padding: '0', display: 'flex', alignItems: 'center' }}>
-//     <span style={{ marginRight: '5px', marginTop:'1px' }}>
-//         <a href={Ten} target="_blank" rel="noopener noreferrer" style={{ color: 'black', textDecoration: 'none' }}>Learn More</a>
-//     </span>
-//     <a href={Ten} target="_blank" rel="noopener noreferrer">
-//         <img src={arrownext} alt="Learn More Image" style={{ width: '20px', height: '20px' }} className='mt-1' />
-//     </a>
-// </div>
+// <div className='explore fw-bolder d-flex mt-3' style={{ alignItems: 'center' }}>
+//             <span style={{ marginRight: '5px', marginTop:'1px' }}>
+//                 <a href={Ten} target="_blank" rel="noopener noreferrer"
+//                  style={{ textDecoration: 'none' }} className='font'>Learn More</a>
+//             </span>
+     
+// <a href={Ten} target="_blank" rel="noopener noreferrer">
+//     <FontAwesomeIcon icon={faAnglesRight} className='mt-3 font' />
+// </a>
+//         </div>
 // </div>
 
 
